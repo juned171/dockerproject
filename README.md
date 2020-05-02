@@ -37,3 +37,19 @@ You can create and edit this file using vim editor. For that use vim docker-comp
 
 ![docker-compose](https://github.com/juned171/dockerproject/blob/master/Screenshot%20(42).png)
 
+## Docker-compose up:
+As per the below  picture use ```docker-compose ```   up to complete the setup.
+![docker-compose](https://github.com/juned171/dockerproject/blob/master/Screenshot%20(43).png)
+
+-after that the below processing takes place:
+![docker-compose](https://github.com/juned171/dockerproject/blob/master/Screenshot%20(44).png)
+
+## NEXTCLOUD STARTED :
+Got to your browser and type localhost:8081  or by giving your IP address:8081  and done you will be able to see your Nextcloud WebApp. Try it in linux and windows both.
+![windows](https://github.com/juned171/dockerproject/blob/master/Screenshot%20(39).png)
+# IN LINUX  
+
+![linux](https://github.com/juned171/dockerproject/blob/master/Screenshot%20(40).png)
+
+I learned all this technology under Vimal Daga Sir under his campaigh IIEC_RISE for free!!
+thankyou Vimal Sir!.
