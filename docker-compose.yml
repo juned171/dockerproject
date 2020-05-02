@@ -1,0 +1,27 @@
+version: '3'
+services:
+   dbos:
+   image: mariadb
+   volumes: 
+     -mysql_storage_new:/var/lib/mysql
+   restart: always
+   
+   environment:
+       MYSQL_ROOT_PASSWORD= rootpass
+       MYSQL_PASSWORD= juned
+       MYSQL_DATABASE= redhat
+       MYSQL_USER= nextcloud
+
+   nextcloud:
+     image: nextcloud
+     ports:
+       - 8081:80
+     links:
+       - db
+     volumes:
+       - nextcloud:/var/www/html
+      restart: always
+   
+   volumes:
+     mysql_storage_new:
+     nextcloud:
