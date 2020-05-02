@@ -28,3 +28,12 @@ to download the mariadb  image to use as a database server.
 
 to download the Nextcloud image in which apache server is already preconfigured.
 To know more about Nextcloud image  go to this page: [NEXTCLOUD](https://hub.docker.com/_/nextcloud)
+![pull _images](https://github.com/juned171/dockerproject/blob/master/Screenshot%20(41).png)
+
+## Docker-Compose:
+Before using Docker-Compose you should install the software. For reference go to this website :[docker-compose]( https://docs.docker.com/compose/install/)  .
+
+You can create and edit this file using vim editor. For that use vim docker-compose.yml. Remember the file name should always be docker-compose.yml.
+
+![docker-compose](https://github.com/juned171/dockerproject/blob/master/Screenshot%20(42).png)
+
