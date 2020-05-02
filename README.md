@@ -7,9 +7,21 @@ This project is built with
 -nextcloud
 -Mariadb
 
-## Requirements/Installation
-Make sure you have the latest versions of Docker and Docker Compose installed on your machine.
 
-If Not than run the following commands:-
-
-For Docker installation on linux
+## Setting up the required things:
+Disabling firewall:
+Firewall might create some networking issues so stop the firewall.
+```Use systemctl stop firewalld.
+```
+Starting the docker:
+``` systemctl start docker ```to start Docker Service.
+## Downloading required images:
+Pulling Mariadb Image:
+Use 
+```docker pull mariadb:latest ``` 
+to download the mariadb  image to use as a database server.
+To know more about Mariadb Image go to this page:[mariadb](https://hub.docker.com/_/mariadb)
+Now to pull nextcloud image:
+```docker pull nextcloud``` 
+to download the Nextcloud image in which apache server is already preconfigured.
+To know more about Nextcloud image  go to this page: [NEXTCLOUD](https://hub.docker.com/_/nextcloud)
